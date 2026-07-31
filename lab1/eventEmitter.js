@@ -30,5 +30,3 @@ task.emit("greet" , "Akash");
 task.off("greet" , working);
 task.emit("greet", "Aditya");
 task.emit("exit", "Manager");
-
-

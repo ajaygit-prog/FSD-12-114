@@ -1,18 +1,22 @@
-//waf to take any digit (0-9) and 
-//return its in word 
-//0- one
-//5 - five ;
-function print(a) {
-    if (a == 0) console.log("zero");
-    else if (a == 1) console.log("one");
-    else if (a == 2) console.log("two");
-    else if (a == 3) console.log("three");
-    else if (a == 4) console.log("four");
-    else if (a == 5) console.log("five");
-    else if (a == 6) console.log("six");
-    else if (a == 7) console.log("seven");
-    else if (a == 8) console.log("eight");
-    else if (a == 9) console.log("nine");
+const f1 = () => {
+    console.log("f1") ;
+};
 
+const f2 = () => {
+  console.log("f2");
+};
+
+const f3 = () => {
+  console.log("f3");
+};
+
+function main() {
+    console.log("main") ;
+    setTimeout(f1,0);
+    //setInterval(f1,1000) ;
+    setImmediate(f2) ;
+    f2() ;
+    f3() ;
+    console.log("end" );
 }
-print(5) ;
+main () ;
