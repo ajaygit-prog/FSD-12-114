@@ -7,7 +7,7 @@ JS is synchronous and single threaded bydefault
 - with event handlers
 
 # Promises  -:
-- A function not executed immediately , but it must be executed after a while . it has some status durinn the execution .
+- A function not executed immediately , but it must be executed after a while . it has some status during the execution .
 At final it may resolve (success) or reject (unsuccess) .
 
 # Callback -:
