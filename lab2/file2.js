@@ -20,6 +20,7 @@ import {writeFile , appendFile , readFile} from "fs/promises" ;
 // const appendData = (filename, content) => {
 //     await appendFile(filename , content) ;
 // } ;
+//
 
 
 const readData =async (filename)=>{
