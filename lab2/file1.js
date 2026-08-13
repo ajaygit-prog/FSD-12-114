@@ -3,7 +3,7 @@ import { writeFile,appendFile, readFile } from "fs/promises" ;
 // await writeFile("hello.txt" , "JS is very hard") ;
 
 
-// await appendFile("hello.txt" , "\n Name : Ajay Prakash Mishra");
+// await appendFile("hello.txt" , "\n Name : Mishra");
 await appendFile("hello.txt" , "\n👌👌👌👌")
 
 const content = await readFile("hello.txt" , "utf-8") ;
