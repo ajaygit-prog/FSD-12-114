@@ -2,10 +2,10 @@
   "name": "lab3",
   "version": "1.0.0",
   "description": "It is built in Node.js module which allow developers to create web server and web client without installing any external package .\r one of the most important module in Node.js , originally designed for building scalable network application and web servers .",
-  "main": "prg1.js",
+  "main": "prog3.js",
   "scripts": {
-    "start": "node prg3.js",
-    "dev" : "nodemon prg3.js"
+    "start": "node prog3.js",
+    "dev" : "nodemon prog3.js"
   },
   "keywords": [],
   "author": "",
